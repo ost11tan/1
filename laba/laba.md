@@ -9,7 +9,7 @@
 
 #Построить график ✔️
 
-#Вычислить вершину
+#Вычислить вершину ✔️
 
 #Определить промежутки, на котором f > 0 ✔️
 
@@ -74,7 +74,7 @@ init_printing()
 x = Symbol('x')
 
 
-#Т.к. библиотека sympy не может нвйти корни нашей функции,то попробуем их найти с помлщью графика
+#Т.к. библиотека sympy не может найти корни нашей функции,то попробуем их найти с помощью графика
 ```
 
 
@@ -95,7 +95,7 @@ plot(fun,(x,-8,9),line_color='red')
 
 
 
-    <sympy.plotting.plot.Plot at 0x20ded6962b0>
+    <sympy.plotting.plot.Plot at 0x209caf57c70>
 
 
 
@@ -114,7 +114,7 @@ plot(fun,(x,-8,-7.5),line_color='red')
 
 
 
-    <sympy.plotting.plot.Plot at 0x20ded696250>
+    <sympy.plotting.plot.Plot at 0x209cc12fa90>
 
 
 
@@ -132,7 +132,7 @@ plot(fun,(x,-7.7,-7.6),line_color='red')
 
 
 
-    <sympy.plotting.plot.Plot at 0x20ded6d4d60>
+    <sympy.plotting.plot.Plot at 0x209cc282250>
 
 
 
@@ -163,7 +163,7 @@ plot(fun,(x,-5.5,-4.5),line_color='red')
 
 
 
-    <sympy.plotting.plot.Plot at 0x20ded667ac0>
+    <sympy.plotting.plot.Plot at 0x209caf7c040>
 
 
 
@@ -191,7 +191,7 @@ plot(fun,(x,-2.5,-3),line_color='red')
 
 
 
-    <sympy.plotting.plot.Plot at 0x20dedff9430>
+    <sympy.plotting.plot.Plot at 0x209cb1421f0>
 
 
 
@@ -209,7 +209,7 @@ plot(fun,(x,-2.8,-2.85),line_color='red')
 
 
 
-    <sympy.plotting.plot.Plot at 0x20dedfcc040>
+    <sympy.plotting.plot.Plot at 0x209cc3ae370>
 
 
 
@@ -237,7 +237,7 @@ plot(fun,(x,0,3),line_color='red')
 
 
 
-    <sympy.plotting.plot.Plot at 0x20dedfb7d30>
+    <sympy.plotting.plot.Plot at 0x209cc2e0340>
 
 
 
@@ -255,7 +255,7 @@ plot(fun,(x,2,2.5),line_color='red')
 
 
 
-    <sympy.plotting.plot.Plot at 0x20dee2e8310>
+    <sympy.plotting.plot.Plot at 0x209cd5bd760>
 
 
 
@@ -273,7 +273,7 @@ plot(fun,(x,2.25,2.3),line_color='red')
 
 
 
-    <sympy.plotting.plot.Plot at 0x20dee20e430>
+    <sympy.plotting.plot.Plot at 0x209cc2c4160>
 
 
 
@@ -306,7 +306,7 @@ plot(fun,(x,3,5),line_color='red')
 
 
 
-    <sympy.plotting.plot.Plot at 0x20dee231460>
+    <sympy.plotting.plot.Plot at 0x209cda7a640>
 
 
 
@@ -335,7 +335,7 @@ plot(fun,(x,7.5,8.5),line_color='red')
 
 
 
-    <sympy.plotting.plot.Plot at 0x20dee0b9eb0>
+    <sympy.plotting.plot.Plot at 0x209cd655cd0>
 
 
 
@@ -351,11 +351,11 @@ print(root)
 
 
 ```python
-print("На промежутке (-8;9) мы имеем "+str(len(roots)) +" корней")
+print("На промежутке (-8;9) мы имеем "+str(len(roots)) +" корней:")
 print(roots)
 ```
 
-    На промежутке (-8;9) мы имеем 6 корней
+    На промежутке (-8;9) мы имеем 6 корней:
     [-7.65062228513275, -5.02686592820621, -1.33896663927711, 2.27305684575625, 4.38352369796896, 8.03516413341352]
     
 
@@ -412,7 +412,7 @@ plot(dfun,(x,-8,9),line_color='green')
 
 
 
-    <sympy.plotting.plot.Plot at 0x20dee6f1fd0>
+    <sympy.plotting.plot.Plot at 0x209cdb3d280>
 
 
 
@@ -430,7 +430,7 @@ plot(dfun,(x,-7.5,-5),line_color='green')
 
 
 
-    <sympy.plotting.plot.Plot at 0x20dee71d160>
+    <sympy.plotting.plot.Plot at 0x209cdb04ac0>
 
 
 
@@ -459,7 +459,7 @@ plot(dfun,(x,-5,-2.5),line_color='green')
 
 
 
-    <sympy.plotting.plot.Plot at 0x20dee7aaa60>
+    <sympy.plotting.plot.Plot at 0x209cdf7d160>
 
 
 
@@ -487,7 +487,7 @@ plot(dfun,(x,-1.5,-0),line_color='green')
 
 
 
-    <sympy.plotting.plot.Plot at 0x20deef88cd0>
+    <sympy.plotting.plot.Plot at 0x209cdf7d1c0>
 
 
 
@@ -515,7 +515,7 @@ plot(dfun,(x,0.25,0.75),line_color='green')
 
 
 
-    <sympy.plotting.plot.Plot at 0x20deebb71f0>
+    <sympy.plotting.plot.Plot at 0x209ce3c6460>
 
 
 
@@ -543,7 +543,7 @@ plot(dfun,(x,1.5,2),line_color='green')
 
 
 
-    <sympy.plotting.plot.Plot at 0x20def1f03d0>
+    <sympy.plotting.plot.Plot at 0x209ce0165b0>
 
 
 
@@ -571,7 +571,7 @@ plot(dfun,(x,2,4),line_color='green')
 
 
 
-    <sympy.plotting.plot.Plot at 0x20def012070>
+    <sympy.plotting.plot.Plot at 0x209ce016070>
 
 
 
@@ -599,7 +599,7 @@ plot(dfun,(x,6,8),line_color='green')
 
 
 
-    <sympy.plotting.plot.Plot at 0x20def42e820>
+    <sympy.plotting.plot.Plot at 0x209ce4398e0>
 
 
 
@@ -627,7 +627,7 @@ plot(dfun,(x,7,9),line_color='green')
 
 
 
-    <sympy.plotting.plot.Plot at 0x20def828940>
+    <sympy.plotting.plot.Plot at 0x209cea83ca0>
 
 
 
